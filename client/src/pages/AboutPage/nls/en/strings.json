@@ -1,0 +1,13 @@
+{
+	"ABOUT": {
+		"back": "Go Back",
+		"title": "About Verifier Administration",
+		"what": "What is Verifier Administration and how does it work?",
+		"what_desc": "Verifier Administration is a service that can convert information, such as a vaccination record or an antibody test result, into a verifiable credential that you can store on your phone. So instead of carrying around a vaccination card, lab test results, or even a list of your allergies or medications, you now have the ability to store this data on your phone so that you always have it when you need it. Most importantly, you can now share this data with another party, and it can be validated to ensure it's authenticity, all while protecting your privacy. You have total control of the data, you choose who to share it with and when, and none of your personal data is held by Verifier Administration.",
+		"why": "Why would I want a verifiable credential?",
+		"why_desc": "There are many reasons why you may want a verifiable credential, but there are two main reasons. Firstly, you want to have your healthcare information safely and securely in your hand where you can easily manage it and control access to it; for example, you want to manage vaccination records for all your family, including getting alerts when booster shots may be required. Secondly, you want to be able to share this information in a way that is secure, protects your privacy, and can be trusted; for example; if you go to a the emergency room and need them to know your allergies, you can share your allergies credential and they can trust that it is accurate.",
+		"how": "How is Verifier Administration privacy-protecting?",
+		"how_desc": "Firstly, Verifier Administration does not hold any of your personal data. When Verifier Administration asks for some personal information during the credential issuing process, it's only for the purpose of being able to match your information with a healthcare record that resides with the data provider, so that we can retrieve the data and generate the credential. Once the credential is generated and you download it to your digital wallet on your phone, all your personal information is deleted from Verifier Administration. Now when you personally choose to share some information within, or derived from, the credential, you can limit the amount of data that you share (called zero knowledge proofs) and ensure that the data is only used for that purpose. You are in the driving seat.",
+		"PageTitle": "About"
+	}
+}

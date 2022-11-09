@@ -1,0 +1,20 @@
+{
+	"CUSTOMER_DIALOG": {
+		"btnCancel": "Cancel",
+		"btnAdd": "Add Customer",
+		"modalHeading": "Create a customer",
+		"custInfo": "Customer information",
+		"custAdmin": "Customer administrator",
+		"firstName": "First name",
+		"lastName": "Last name",
+		"email": "Email",
+		"custName": "Customer name",
+		"billingID": "Billing ID",
+		"placeHolder_billingID": "123-456-7890",
+		"placeHolder_custName": "Acme Corporation",
+		"placeHolder_firstName": "Robert",
+		"placeHolder_lastName": "Sample",
+		"placeHolder_email": "bobsample@acme.com",
+		"helpText": "Add a new Customer to Digitial Health Pass. A default organization with the same name will also be added.  The Customer administrator defined here will be also be the default Organization's administrator."
+	}
+}

@@ -1,0 +1,19 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules/*
+
+# testing
+**/coverage
+
+# production build staging
+**/build
+**/dist
+
+**/public/locales
+
+# misc
+.DS_Store
+
+server/.env
+client/.env

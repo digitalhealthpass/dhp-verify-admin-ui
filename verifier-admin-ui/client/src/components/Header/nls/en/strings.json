@@ -1,0 +1,10 @@
+{
+  "HEADER": {
+    "app_name": "Open Digital Health Pass Administration",
+    "logout": "Logout",
+    "help": "Help",
+    "about": "About",
+    "privacy": "Privacy",
+    "docs": "Administration Guide"
+  }
+}

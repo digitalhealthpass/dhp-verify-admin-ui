@@ -1,0 +1,16 @@
+{
+	"SAVE_VERIFIER_CONFIG_DIALOG": {
+		"btnCancel": "Cancel",
+		"btnSave": "Save",
+		"modalHeading": "Save configuration",
+		"name": "Name",
+		"placeholder_name": "configuration name",
+		"chkboxReceiveUpdates": "Receive updates to configuration (customizations will be preserved)",
+		"chkboxSaveToMaster": "Save to Master catalog",
+		"saveAsCustConfig": "Save as new customer configuration",
+		"saveAsMasterConfig": "Save as new master configuration",
+		"modifyCustConfig": "Modify current customer configuration",
+		"modifyMasterConfig": "Modify current master configuration",
+		"invalidRulesConfig": "Invalid rules configuration detected, disabled specification should not contain enabled rules."
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"name": "dhp-verify-admin-ui",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"clean-all": "rm -rf ./node_modules ./dist; npm run clean --prefix ./client; npm run clean --prefix ./server",
+		"postinstall": "npm install --prefix ./client; npm install --prefix ./server",
+		"client": "cross-env SASS_PATH=node_modules npm start --prefix ./client",
+		"client-build": "cross-env INLINE_RUNTIME_CHUNK=false SASS_PATH=node_modules GENERATE_SOURCEMAP=true npm run build --prefix ./client",
+		"server-build": "npm run build --prefix ./server",
+		"server": "cd server; node .",
+		"dev": "npm run server & npm run client;",
+		"prod-env": "cp -R ./chart ./dist/chart; cp -R ./client/build/* ./dist/client/",
+		"prebuild": "rm -rf ./dist; mkdir ./dist; mkdir -p ./dist/client;",
+		"build": "npm run client-build; npm run server-build; npm run prod-env",
+		"prestart": "npm run build",
+		"start": "node ./dist/server/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"engines": {
+		"node": ">=16.0.0",
+		"npm": ">=8.0.0"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cross-env": "7.0.3"
+	}
+}

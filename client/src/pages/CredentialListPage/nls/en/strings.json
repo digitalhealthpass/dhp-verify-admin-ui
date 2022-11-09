@@ -1,0 +1,32 @@
+{
+	"VERIFIERS_PAGE": {
+		"tblTitle": "Verifier Credentials for {{orgName}}",
+		"btnNew": "Verifier Credential",
+		"modalHeadingRevoke": "Revoke Verifier Credential",
+		"modalHeadingShow": "Verifier Credential: {{orgName}} - {{label}}",
+		"modalText": "Are you sure you want to revoke {{credName}}?",
+		"btnConfigCat": "Configuration catalog",
+		"btnRevoke": "Revoke Credential",
+		"btnCancel": "Cancel",
+		"btnClose": "Close",
+		"btnPrint": "Print",
+		"errRevoke": "Error revoking credential. Contact your administrator.",
+		"tableHelp": "Review existing Verifier Credentials or create new ones.  As needed, complete additional actions, for example, view credential configurations or revoke credentials.",
+		"noConfigHeader": "Configuration required",
+		"noConfigBody": "Before adding a credential, you need to set up at least one configuration in your configuration catalog",
+		"invalidCredentialHeader": "Invalid Credential",
+		"invalidCredentialBody": "The configuration associated with this credential no longer exists. Please revoke this credential because it is no longer valid",
+		"missingConfig": "missing configuration",
+		"backLabel": "Organizations",
+		"headers": {
+			"Configuration ID": "Configuration ID",
+			"ID": "ID",
+			"Name": "Name",
+			"Configuration": "Configuration",
+			"Expiration": "Expiration",
+			"Status": "Status",
+			"Actions": "Actions"
+		},
+		"PageTitle": "Verifier Credentials"
+	}
+}

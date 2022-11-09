@@ -1,0 +1,15 @@
+{
+	"ORGS_PAGE": {
+		"tblTitle": "Organizations for {{custName}}",
+		"btnNew": "Organization",
+		"btnConfigCat": "Configuration catalog",
+		"backLabel": "Customers",
+		"tableHelp": "Set up organizations as needed, that reflect your business's structure. Each organization has an administrator. In later steps, you'll define how verification works for each organization.",
+		"headers": {
+			"ID": "ID",
+			"Actions": "Actions",
+			"Organization": "Organization"
+		},
+		"PageTitle": "Organizations"
+	}
+}

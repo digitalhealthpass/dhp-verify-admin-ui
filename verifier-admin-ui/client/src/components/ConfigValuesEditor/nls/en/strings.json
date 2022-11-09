@@ -1,0 +1,8 @@
+{
+	"CONFIG_VALUES_EDITOR": {
+		"btnCancel": "Cancel",
+		"btnClose": "Done",
+		"modalHeading": "Edit values",
+		"addNewValueSet": "New value"
+	}
+}

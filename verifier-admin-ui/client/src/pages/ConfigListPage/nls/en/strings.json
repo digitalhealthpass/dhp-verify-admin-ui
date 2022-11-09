@@ -1,0 +1,26 @@
+{
+	"CONFIG_LIST_PAGE": {
+		"pageTitle": "Configuration catalog",
+		"helpText": "Select from a catalog of standard, Master configurations that you use as the basis for your verifier configuration. Add these to your catalog, then associate one of these configurations with verifier credentials when you add them.",
+		"tblTitle": "Configuration catalog",
+		"modalHeadingDelete": "Delete Configuration",
+		"modalText": "Are you sure you want to delete {{configName}}?",
+		"btnDelete": "Delete",
+		"btnCancel": "Cancel",
+		"errDelete": "Unable to delete the selected configuration. Contact your administrator.",
+		"tabMaster": "Master catalog",
+		"masterCatalog": "Master catalog",
+		"tabCust": "{{name}}",
+		"headers": {
+			"ID": "ID",
+			"Name": "Name",
+			"Version": "Version",
+			"Publisher": "Publisher",
+			"Cache": "Cache",
+			"Cache Refresh": "Cache Refresh",
+			"Supported Credentials": "Supported Credentials",
+			"Last Modified": "Last Modified",
+			"Actions": "Actions"
+		}
+	}
+}

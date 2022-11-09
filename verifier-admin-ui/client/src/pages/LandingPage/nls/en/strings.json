@@ -1,0 +1,25 @@
+{
+	"LANDING_PAGE": {
+		"title": "Administration",
+		"titleSysAdmin": "Customers",
+		"titleCustAdmin": "Configurations & organizations",
+		"titleAdmin": "Verification",
+		"titleWelcomeHeader": "Welcome!",
+		"titleWelcomeBodySysAdmin": "Onboard and manage Digital Health Pass customers.",
+		"titleWelcomeBodyCustAdmin": "Easily manage how your business verifies healthcare credentials. Set up your organizational structure. Determine the rules for scanning and verifying passes, cards, and connections.",
+		"titleWelcomeBodyOrgAdmin": "Enable your verifiers to scan holder credentials by creating and managing verifier credentials.",
+		"tile1HeaderSysAdmin": "Manage customers",
+		"tile1BodySysAdmin": "Add and remove Digital Health Pass customers.  Manage administrators and view usage statistics for a specific customer.",
+		"tile1HeaderCustAdmin": "Set up configurations",
+		"tile1BodyCustAdmin": "Configure how your verifier app will behave, which includes the rules that will be run, the types of credentials accepted, and the data displayed.",
+		"tile2HeaderCustAdmin": "Manage Organizations",
+		"tile2BodyCustAdmin": "Group your verifying staff into organizations (if granular management of verification is required) and setup administrators for each organization.",
+		"tile1HeaderOrgAdmin": "Inspect configurations",
+		"tile1BodyOrgAdmin": "View the catalog of configurations that have been approved for your organization and can be used when generating your verifier QR Codes.",
+		"tile2HeaderOrgAdmin": "Generate QR Codes",
+		"tile2BodyOrgAdmin": "Create the QR Codes that will allow your verifiers to start using the verifier app and verify credentials according to your approved configuration.",
+		"tileHelpNew": "What's new",
+		"tileHelpGuide": "Administration guide",
+		"PageTitle": "Home"
+	}
+}

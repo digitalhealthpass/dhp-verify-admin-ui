@@ -1,0 +1,18 @@
+{
+	"VERIFIER_DIALOG": {
+		"btnCancel": "Cancel",
+		"btnAdd": "Save credential",
+		"modalHeading": "Verification Credential",
+		"modalLabel": "Create",
+		"lblName": "Credential name",
+		"lblExp": "Expires in (days)",
+		"lblConfig": "Configuration",
+		"lblVersion": "Version",
+		"ckbVersion": "Use specific verion",
+		"placeHolder_name": "Specify a credential name",
+		"placeHolder_config": "Select a configuration",
+		"placeHolder_version": "latest",
+		"helpText": " Add a credential that authenticates your staff to verify healthcare passes and cards. A configuration determines how passes and cards are processed and assessed for this credential.",
+		"PageTitle": "Create a verification credential"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"DATA_TABLE": {
+		"menuEdit": "Edit",
+		"menuAdmins": "Administrators...",
+		"menuResend": "Resend invitiation",
+		"menuDelete": "Delete",
+		"menuRevoke": "Revoke",
+		"menuUtilization": "Usage..."
+	}
+}

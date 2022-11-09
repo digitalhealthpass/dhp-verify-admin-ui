@@ -1,0 +1,15 @@
+{
+	"SAVE_USER_DIALOG": {
+		"btnCancel": "Cancel",
+		"btnAdd": "Add Administrator",
+		"modalHeading": "Create an administrator",
+		"adminInfo": "Administrator Information",
+		"firstName": "First name",
+		"lastName": "Last name",
+		"email": "Email",
+		"placeHolder_firstName": "Robert",
+		"placeHolder_lastName": "Sample",
+		"helpText": "Add an administrator by providing some basic information about them.  The email address of each administrator must be unique within the system.  An email will be sent with instructions on how to set this administrator's initial password.",
+		"placeHolder_email": "bobsample@acme.com"
+	}
+}

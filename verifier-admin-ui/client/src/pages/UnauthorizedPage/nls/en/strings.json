@@ -1,0 +1,7 @@
+{
+	"UNAUTHORIZED_PAGE": {
+		"message": "Sorry!  You are not authorized to view the requested page.",
+		"back": "Return to previous page",
+		"PageTitle": "Unauthorized"
+	}
+}

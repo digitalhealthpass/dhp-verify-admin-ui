@@ -1,0 +1,28 @@
+{
+	"CONFIG_DETAILS_PAGE": {
+		"pageTitle": "Verifier Configuration from {{title}} Catalog",
+		"tblTitle": "Administrators",
+		"btnNew": "Administrator",
+		"btnBack": "Configuration catalog",
+		"lblCachePolicy": "Cache policy",
+		"lblCredType": "Supported specifications:",
+		"lblRules": "Rules",
+		"lblVacRuleSet": "Vaccine Rule Set",
+		"lblTestRuleSet": "Test Rule Set",
+		"lblGenRuleSet": "Generic Rule Set",
+		"lblConfigName": "Name",
+		"lblConfigVersion": "Version",
+		"lblConfigPublisher": "Publisher",
+		"lblConfigCache": "Cache",
+		"lblConfigRefresh": "Refresh",
+		"btnSave": "Add configuration to my catalog",
+		"titleMainArea": "{{credType}} configuration",
+		"btnUpdate": "Update my catalog",
+		"errNotFoundTitle": "Unable to load verifier configuration",
+		"errNotFoundBody": "The selected verifier configuration can not be loaded.  It may have been deleted.  Please revoke the associated verifier configuration.",
+		"rulesNoDisplay": "Show all credential information",
+		"addConfig": "add_config",
+		"configRulesTab": "Config Rules",
+		"configValuesTab": "Config Values"
+	}
+}

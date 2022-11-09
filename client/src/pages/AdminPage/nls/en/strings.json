@@ -1,0 +1,14 @@
+{
+	"ADMINS_PAGE": {
+		"tblTitle": "Administrators for {{custName}}",
+		"btnNew": "Administrator",
+		"btnBack": "Back",
+		"tableHelp": "Review Administrators set up for a selected Digital Health Pass customer or organization. As needed, complete additional actions, for example, to resend notification email.",
+		"headers": {
+			"ID": "ID",
+			"Name": "Name",
+			"Email": "Email",
+			"Actions": "Actions"
+		}
+	}
+}

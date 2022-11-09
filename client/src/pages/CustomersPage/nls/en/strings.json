@@ -1,0 +1,15 @@
+{
+	"CUSTOMERS_PAGE": {
+		"tblTitle": "Customers",
+		"tblDescription": "Digital Health Pass",
+		"btnNew": "Customer",
+		"tableHelp": "Add a new Digital Health Pass customer. To prepare, make sure that you have a billing ID, along with the name and email address for the Customer Administrator.",
+		"headers": {
+			"ID": "ID",
+			"Actions": "Actions",
+			"Customer": "Customer",
+			"Business Type": "Business Type"
+		},
+		"PageTitle": "Customers"
+	}
+}

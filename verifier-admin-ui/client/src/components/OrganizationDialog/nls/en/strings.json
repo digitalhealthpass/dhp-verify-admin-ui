@@ -1,0 +1,18 @@
+{
+	"ORGANIZATION_DIALOG": {
+		"btnCancel": "Cancel",
+		"btnAdd": "Add Organization",
+		"modalHeading": "Create an organization",
+		"orgInfo": "Organization information",
+		"orgAdmin": "Organization adminstrator",
+		"firstName": "First name",
+		"lastName": "Last name",
+		"email": "Email",
+		"orgName": "Organization name",
+		"placeHolder_orgName": "midwest region",
+		"placeHolder_firstName": "Robert",
+		"placeHolder_lastName": "Sample",
+		"placeHolder_email": "bobsample@acme.com",
+		"helpText": "Add organizations that reflect your business. In each organization, you'll set up verifier credentials which will allow your staff to begin scanning healthcare passes and cards."
+	}
+}

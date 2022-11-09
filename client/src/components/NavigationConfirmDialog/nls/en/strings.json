@@ -1,0 +1,8 @@
+{
+	"NAVIGATION_CONFIRM_DIALOG": {
+		"btnCancel": "Go back",
+		"btnDiscard": "Discard changes",
+		"modalHeading": "Unsaved changes detected",
+		"message": "You have unsaved changes to this configuation. To save your changes click Go back then click Save to catalog."
+	}
+}

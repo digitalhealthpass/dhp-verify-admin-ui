@@ -1,0 +1,14 @@
+{
+	"METRICS_PAGE": {
+		"startDate": "Start date:",
+		"endDate": "End date:",
+		"helpText": "Review verification-related statistics for a selected Digital Health Pass customer or organization. As needed, adjust the date range for the time period that you want.",
+		"timeRange": "Date range",
+		"metricsTableTitle": "Utilization",
+		"btnBack": "Back",
+		"btnExecute": "Execute query",
+		"pageTitle": "Verification metrics for {{custName}}",
+		"timeRangeLbl": "Date range",
+		"noData": "No data available for the selected date range."
+	}
+}

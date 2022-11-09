@@ -1,0 +1,183 @@
+/*
+ *
+ * (c) Copyright Merative US L.P. and others 2020-2022 
+ *
+ * SPDX-Licence-Identifier: Apache 2.0
+ *
+ */
+
+html {
+	display: flex;
+	flex: 1 1 auto;
+	height: 100%;
+	font-size: 16px; // basis for rem
+	font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+	overflow: hidden;
+
+	body {
+		@media not all, (forced-colors: active), not all {
+			.kaoTrh {
+				outline: dotted;
+			}
+
+			.bx--header__menu-item:focus {
+				outline: dotted;
+			}
+
+			.bx--header__menu-item:focus {
+				outline: dotted;
+			}
+
+			.bx--btn--primary .bx--btn__icon,
+			.bx--btn--primary .bx--btn__icon path:not([data-icon-path]):not([fill='none']),
+			.bx--inline-notification--low-contrast .bx--inline-notification__close-button .bx--inline-notification__close-icon,
+			.bx--toolbar-search-container-expandable .bx--search-magnifier-icon,
+			svg {
+				fill: ButtonText;
+			}
+		}
+
+		@media only screen and (max-width: 1023px), screen and (max-height: 767px) {
+			#root {
+				height: inherit;
+				overflow: hidden;
+
+				.login-page {
+					.login-sideImg {
+						display: none;
+					}
+					.login-sideform {
+						overflow: visible;
+						padding: 1rem 0rem 0rem 1rem;
+						margin: 0rem;
+					}
+				}
+
+				main {
+					overflow: auto;
+					padding: 0px;
+				}
+
+				#pageHeaderComponent,
+				.bx--data-table-container #dataTableComponent {
+					margin: 0rem;
+					padding: 0rem 1rem;
+				}
+
+				.bx--pagination {
+					overflow: hidden;
+				}
+
+				#appHeader {
+					.bx--header__submenu {
+						> a.bx--header__menu-item {
+							line-height: 0;
+							font-size: 0;
+							color: transparent;
+							&:before {
+								padding-right: 0px;
+							}
+							svg {
+								margin: 0px;
+							}
+						}
+					}
+				}
+
+				#landingPage {
+					> div {
+						flex-wrap: wrap;
+					}
+
+					#landingPageImage {
+						display: none;
+					}
+				}
+
+				.flatpickr-calendar.open {
+					top: 1rem !important;
+					height: unset;
+					.flatpickr-weekdays {
+						height: unset;
+					}
+					.flatpickr-day {
+						height: 1.5rem;
+					}
+					.dayContainer {
+						height: unset;
+					}
+				}
+
+				#credentialSection {
+					.bx--modal-content {
+						margin-bottom: 0px;
+					}
+
+					.copyToClipboard {
+						margin: 0px;
+					}
+
+					#qrCodePage {
+						#qrCodeRow {
+							flex-direction: column;
+						}
+					}
+				}
+			}
+		}
+
+		overflow: hidden;
+		display: flex;
+		flex: 1 1 auto;
+		height: inherit;
+
+		.bx--toast-notification {
+			z-index: 1000;
+			position: absolute;
+			top: 5rem;
+			right: 1rem;
+			width: unset;
+		}
+
+		/* Disabled Color Style for CheckBoxTree in ConfigRulesEditor */
+		.rct-disabled .rct-checkbox .rct-icon {
+			fill: gray;
+		}
+
+		.bx--loading-overlay {
+			display: none;
+		}
+
+		&.loading-indicator {
+			.bx--loading-overlay {
+				display: flex;
+			}
+		}
+
+		#root {
+			display: flex;
+			overflow: hidden;
+			flex: 1 1 auto;
+			flex-direction: column;
+
+			.modalText {
+				padding-left: 1rem;
+				padding-bottom: 3rem;
+			}
+
+			.main-content {
+				display: flex;
+				flex: 1 1 auto;
+				background-color: #f4f4f4;
+				flex-direction: column;
+			}
+		}
+		/* Config Rules Editor changes*/
+		.rct-node-icon {
+			display: none;
+		}
+		.rct-node-leaf {
+			height: 32px;
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"SAVE_CONFIG_DIALOG": {
+		"btnCancel": "Cancel",
+		"btnAdd": "Save",
+		"modalHeading": "Save configuration",
+		"name": "Name",
+		"placeholder_name": "configuration name",
+		"version": "Version",
+		"placeholder_version": "x.y.z",
+		"daily": "daily",
+		"weekly": "weekly",
+		"monthly": "monthly",
+		"grpCachePolicy": "For web verification only"
+	}
+}
