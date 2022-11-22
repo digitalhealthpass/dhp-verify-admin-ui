@@ -1,5 +1,5 @@
 {
-	"name": "dhp-verify-admin-ui-client",
+	"name": "verifier-admin-ui-client",
 	"version": "1.0.0",
 	"private": true,
 	"dependencies": {
@@ -32,7 +32,6 @@
 		"react-dom": "^17.0.0",
 		"react-i18next": "11.15.2",
 		"react-icons": "^4.3.1",
-		"react-query": "3.34.7",
 		"react-router-dom": "6.3.0",
 		"react-scripts": "5.0.0",
 		"react-to-print": "2.14.3",
